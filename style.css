@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px 500px;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(180deg, rgba(255, 116, 6, 0.96) 0%, rgba(255, 92, 0, 0.76) 55.73%, #FF7102 100%);
+}
+
+.container {
+    border: 4px solid hsl(26, 20%, 93%);
+    padding: 40px;
+    box-shadow: 0px 0px 10px 20px hsl(26, 20%, 93%);
+    
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    margin-top: 70px;
+}
+.left h1 {
+    font-size: 50px;
+}
+.left .date {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 255px;
+    font-size: 20px;
+}
+
+.info h3 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.info p {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.images {
+    padding: 60px 0;
+}
+
+.images img {
+    display: inline-block;
+    width: 200px;
+    padding: 0 15px;
+    margin: auto;
+    transform: translate(30%);
+}
+
+.quote {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quote .naruto {
+    position: absolute;
+    padding-top: 20px;
+    margin-top: -20px;
+    margin-left: 385px;
+}
